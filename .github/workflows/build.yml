@@ -1,13 +1,9 @@
-name: Deploy CI
+name: Build CI
 
-on:
-  pull_request_target:
-    branches: [ main ]
-    types: [ closed ]
+on: [push]
 
 jobs:
   build:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     strategy:
