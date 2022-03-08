@@ -33,4 +33,4 @@ jobs:
         git commit -m "Add new build"
     - name: Push changes
       run: |
-        git subtree push --prefix dist origin gh-pages
+        git push origin `git subtree split --prefix dist origin main`:gh-pages --force-with-lease
