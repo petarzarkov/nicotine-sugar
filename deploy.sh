@@ -16,7 +16,7 @@ git config --global user.name "github-actions[bot]"
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:petarzarkov/nicotine-sugar.git main:gh-pages
+git push -f https://github.com/petarzarkov/nicotine-sugar.git main:gh-pages
 
 
 cd -
