@@ -14,6 +14,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/petarzarkov/nicotine-sugar.git.git main:gh-pages
+git push -f https://github.com/petarzarkov/nicotine-sugar.git main:gh-pages
 
 cd -
