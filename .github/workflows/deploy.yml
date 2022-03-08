@@ -21,17 +21,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Install and Build
+    - name: Install
       run: |
         npm install
-        npm run build
-    - name: Commit files
+    - name: Deploy
       run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add dist -f
-        git commit -m "Add new build"
-    - name: Push changes
-      run: |
-        git push origin `git subtree split --squash --prefix dist origin main`:gh-pages --force
-        git push origin `git subtree push --prefix dist origin gh-pages` --force
+        npm run deploy
