@@ -16,4 +16,5 @@ git commit -m 'deploy'
 
 git push -f https://github.com/petarzarkov/nicotine-sugar.git main:gh-pages
 
+
 cd -
