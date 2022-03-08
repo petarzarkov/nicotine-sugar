@@ -34,5 +34,3 @@ jobs:
     - name: Push changes
       run: |
         git subtree push --prefix dist origin gh-pages
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
