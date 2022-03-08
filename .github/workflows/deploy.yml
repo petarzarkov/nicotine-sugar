@@ -30,7 +30,6 @@ jobs:
       # uses: crazy-max/ghaction-github-pages@a117e4aa1fb4854d021546d2abdfac95be568a3a
       uses: crazy-max/ghaction-github-pages@v2.6.0
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         build_dir: 'dist'
         author: "Petar Zarkov" # optional
         # Commit message
@@ -41,3 +40,5 @@ jobs:
         dry_run: false # optional, default is false
         # Enable verbose output
         verbose: true # optional, default is false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
