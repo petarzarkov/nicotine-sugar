@@ -45,13 +45,13 @@ function Pages() {
   const { width } = useThree((state) => state.viewport);
   return (
     <>
-      <Page position={[-width * 1, 0, 0]} urls={["src/assets/images/trip1.jpg", "src/assets/images/trip2.jpg", "src/assets/images/trip3.jpg"]} />
-      <Page position={[width * 0, 0, 0]} urls={["src/assets/images/img1.jpg", "src/assets/images/img2.jpg", "src/assets/images/img3.jpg"]} />
-      <Page position={[width * 1, 0, 0]} urls={["src/assets/images/img4.jpg", "src/assets/images/img5.jpg", "src/assets/images/img6.jpg"]} />
-      <Page position={[width * 2, 0, 0]} urls={["src/assets/images/trip1.jpg", "src/assets/images/trip2.jpg", "src/assets/images/trip3.jpg"]} />
-      <Page position={[width * 3, 0, 0]} urls={["src/assets/images/img1.jpg", "src/assets/images/img2.jpg", "src/assets/images/img3.jpg"]} />
-      <Page position={[width * 4, 0, 0]} urls={["src/assets/images/img4.jpg", "src/assets/images/img5.jpg", "src/assets/images/img6.jpg"]} />
-      <Page position={[width * 5, 0, 0]} urls={["src/assets/images/trip4.jpg", "src/assets/images/img1.jpg", "src/assets/images/trip3.jpg"]} />
+      <Page position={[-width * 1, 0, 0]} urls={["images/trip1.jpg", "images/trip2.jpg", "images/trip3.jpg"]} />
+      <Page position={[width * 0, 0, 0]} urls={["images/img1.jpg", "images/img2.jpg", "images/img3.jpg"]} />
+      <Page position={[width * 1, 0, 0]} urls={["images/img4.jpg", "images/img5.jpg", "images/img6.jpg"]} />
+      <Page position={[width * 2, 0, 0]} urls={["images/trip1.jpg", "images/trip2.jpg", "images/trip3.jpg"]} />
+      <Page position={[width * 3, 0, 0]} urls={["images/img1.jpg", "images/img2.jpg", "images/img3.jpg"]} />
+      <Page position={[width * 4, 0, 0]} urls={["images/img4.jpg", "images/img5.jpg", "images/img6.jpg"]} />
+      <Page position={[width * 5, 0, 0]} urls={["images/trip4.jpg", "images/img1.jpg", "images/trip3.jpg"]} />
     </>
   );
 }
