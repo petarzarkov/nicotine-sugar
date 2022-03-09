@@ -1,4 +1,4 @@
-name: Deploy CI
+name: Push to GH Pages CI
 
 on:
   pull_request_target:
@@ -33,7 +33,7 @@ jobs:
         build_dir: 'dist'
         author: "Petar Zarkov" # optional
         # Commit message
-        commit_message: "Push to GH pages" # optional
+        commit_message: "Prod Build" # optional
         # Allow Jekyll to build your site
         jekyll: false # optional, default is true
         # If enabled, nothing will be pushed
