@@ -109,6 +109,7 @@ module.exports = {
             {
                 "allowSingleExtends": true
             }
-        ]
+        ],
+        "react/display-name": "off" // DisplayName allows you to name your component. This name is used by React in debugging messages.
     }
 };
