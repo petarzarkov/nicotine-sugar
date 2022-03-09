@@ -43,6 +43,7 @@ module.exports = {
     ignorePatterns: ['**/*.js'],
     rules: {
         "no-void": 0,
+        "react/prop-types": 0,
         'prettier/prettier': 0,
         quotes: ["error", "double"],
         "@typescript-eslint/explicit-module-boundary-types": "off",
