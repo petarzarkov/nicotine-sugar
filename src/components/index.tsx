@@ -1,1 +1,1 @@
-export * from "./InfiniteScroll";
+export * from "./common";
