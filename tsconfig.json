@@ -18,6 +18,10 @@
     "baseUrl": ".",
     "paths": {
       "@components": ["./src/components"],
+      "@contracts": ["./src/contracts"],
+      "@hooks": ["./src/hooks"],
+      "@store": ["./src/store"],
+      "@utils": ["./src/utils"],
       "@styles": ["./src/styles"]
     }
   },
